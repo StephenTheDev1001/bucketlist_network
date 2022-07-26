@@ -2,7 +2,7 @@
   "name": "bucketlist_network",
   "version": "1.0.0",
   "description": "Social Network built around user's bucketlists",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
@@ -17,5 +17,8 @@
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
